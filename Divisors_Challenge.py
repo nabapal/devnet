@@ -4,5 +4,5 @@ divisors_list = []
 for number in numbers:
     if x % number == 0 :
         divisors_list.append(number)
-print (divisors_list)
+print ("{} is divisor by {}".format(x,divisors_list))
 
