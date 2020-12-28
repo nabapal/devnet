@@ -1,4 +1,4 @@
-word = str (input("Enter a string to check it's a palindrome or not.\n"))
+word = str (input("Enter a word to test palindrome \n"))
 rvsword = word[::-1]
 if word == rvsword:
     print ("{} word is palindrome".format(word))
